@@ -3,6 +3,7 @@ const sequelize = require('../config/connection');
 
 class Post extends Model {}
 
+// Create table for posts, export to index
 Post.init(
     {
         id: {
